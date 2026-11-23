@@ -1,0 +1,15 @@
+[project]
+name = "grounded-enterprise-assistant"
+version = "0.1.0"
+description = "Enterprise AI assistant over structured data and documents, with grounded answers, access control and audit logging"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Raghad Johani" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,5 +1,5 @@
 [project]
-name = "grounded-enterprise-assistant"
+name = "azure-genai-text2sql-rag-agent"
 version = "0.1.0"
 description = "Enterprise AI assistant over structured data and documents, with grounded answers, access control and audit logging"
 requires-python = ">=3.11"

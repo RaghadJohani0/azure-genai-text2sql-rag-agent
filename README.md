@@ -1,6 +1,8 @@
-# grounded-enterprise-assistant
+# azure-genai-text2sql-rag-agent
 
 An enterprise AI assistant that answers business questions over **structured data** (natural language → SQL) and **policy documents** (RAG). Every answer is **grounded**: it shows the evidence it came from and is checked before it reaches the user.
+
+**Stack:** Python · Text-to-SQL · RAG · LangGraph · Azure OpenAI / AI Foundry · Azure AI Search · Databricks / ADLS · FastAPI · Docker
 
 > Status: **Phase 1 – secure data layer.** Built step by step; see the roadmap below.
 
